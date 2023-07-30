@@ -1,8 +1,10 @@
 {
     "compilerOptions": {
-      "moduleResolution": "Node16",
       "strict": true,
-      "module": "ESNext",
-      "checkJs": true
-    },
+      "moduleResolution": "node16",
+      "module": "node16",
+      "noEmit": true,
+      "checkJs": true,
+      "verbatimModuleSyntax": true
+    }
   }
